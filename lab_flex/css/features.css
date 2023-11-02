@@ -1,0 +1,27 @@
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.features>div {
+    width: 80%;
+}
+
+.features-descriprion {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.features-element {
+    width: 40%;
+}
+

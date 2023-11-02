@@ -1,0 +1,7 @@
+.footer {
+    background: linear-gradient( 158deg, #1d0180,#037db1,#249fd3,#023650);
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    line-height: 80px;
+}

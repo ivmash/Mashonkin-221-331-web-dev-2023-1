@@ -1,0 +1,24 @@
+.header,
+img
+{
+    display: none;
+}
+
+.our-mission-content,
+.info-info>div,
+.experience,
+.features>div,
+.features-descriprion,
+.features-element,
+.contact-us
+{
+    width: 100%;
+}
+
+.our-mission {
+    height: fit-content;
+}
+
+.form-control {
+    margin: 0;
+}
