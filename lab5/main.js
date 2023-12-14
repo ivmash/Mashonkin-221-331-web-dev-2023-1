@@ -147,6 +147,12 @@ function showAutocompletion() {
         options.forEach(opt => {
             // Create a new list item for each option
             const listItem = document.createElement('li');
+            listItem.onclick = (event) => {
+                document.querySelector(".search-field").value = 
+                    event.target.innerHTML;
+                autocomplete.innerHTML = "";
+                autocomplete.classList.add("hidden");
+            };
             listItem.textContent = opt;
     
             // Append the list item to the autocomplete element
